@@ -79,7 +79,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='dark'> <body className={inter.className}>
-      <div className="border-b">
+      <div className="border-b ">
         <div className="flex h-16 items-center px-4">
           PHOTOS APP
           <div className="ml-auto flex items-center space-x-4">
@@ -93,7 +93,7 @@ export default function RootLayout({
       </div>
       <div className='flex'>
         <SideMenu />
-        <div className='w-full px-4 pt-12'>
+        <div className='w-full px-4 pt-12 '>
           {children}
         </div>
       </div>
